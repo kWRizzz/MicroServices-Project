@@ -1,5 +1,10 @@
-const express=require()
+const express=require("express")
+
+const app= express()
 
 
+app.use('/',(req,res)=>{
+    res.send("ads")
+})
 
-module.exports
+module.exports = app
